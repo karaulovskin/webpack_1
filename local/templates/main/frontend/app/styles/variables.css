@@ -1,0 +1,31 @@
+@import "media.css";
+
+:root {
+    --c-blue: #0190c6;
+    --c-black: #222222;
+    --c-gray: #888888;
+    --c-border: #e4e4e4;
+    --c-red: #D02033;
+    --c-red-dark: #bd2713;
+    --c-green: #008492;
+    --c-beige: #F6DA91;
+    --c-beige-light: #f1e7cd;
+
+    --bg: #f8f5e4;
+
+    --controlBg: #e3e3e3;
+    --controlColor: #7a7a7a;
+    --controlTrack: #c4c4c4;
+
+    --inputBg: #EDEDED;
+    --inputBorder: #b9b9b9;
+
+    --columnWidth: 25%;
+    --columnOffset: 20px;
+}
+
+@media (--desktop-below) {
+    :root {
+        --columnWidth: 50%;
+    }
+}

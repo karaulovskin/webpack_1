@@ -1,0 +1,32 @@
+<% const data = {
+    'title': 'Модальные окна',
+    'flowContainerClass' : ''
+} %>
+<%- require("../layouts/header.ejs")(data) %>
+
+<div class="container">
+    <h1>Пример попапа</h1>
+
+    <ul>
+        <li>
+            <a href="#check-registration" class="popup-modal">Регистрация чека</a>
+        </li>
+        <li>
+            <a href="#check-success" class="popup-modal">Ваш чек успешно зарегистрирован</a>
+        </li>
+        <li>
+            <a href="#ask-question" class="popup-modal">Задать вопрос</a>
+        </li>
+        <li>
+            <a href="#question-success" class="popup-modal">Ваш вопрос успешно отправлен</a>
+        </li>
+        <li>
+            <a href="#question-answer" class="popup-modal">Вопрос-ответ</a>
+        </li>
+        <li>
+            <a href="#feedback" class="popup-modal">Обратная связь</a>
+        </li>
+    </ul>
+</div>
+
+<%- require("../layouts/footer.ejs")() %>
